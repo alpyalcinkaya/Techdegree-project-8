@@ -5,6 +5,8 @@ body{
 }
 
 h1{
+    margin: 0px 10px;
+    padding: 10px 10px;
     color: #989898;
 }
 
@@ -35,6 +37,8 @@ h1{
 /* overlay styling */
 .overlay{
     position: absolute;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
     top: 0;
     left: 0;
     right: 0;
@@ -55,8 +59,8 @@ h1{
 
 .modal-close{
     position: absolute;
-    right: 15px;
-    top: 5px;
+    right: 578px;
+    top: 248px;
     cursor: pointer;
 }
 
