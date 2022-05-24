@@ -2,6 +2,7 @@ body{
     position: relative;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(242, 242, 242);
+    min-height:100vh;
 }
 
 h1{
@@ -54,6 +55,7 @@ h1{
 
 
 .modal{
+    position: relative;
     width: 375px;
     margin: 15% auto auto;
     text-align: center;
