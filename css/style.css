@@ -28,6 +28,7 @@ h1{
     margin-bottom: 15px;
     padding: 15px 15px;
     width: 400px;
+    overflow-wrap: break-all;
 }
 
 .avatar{
@@ -63,9 +64,10 @@ h1{
 }
 
 .modal-close{
+    display: block;
     position: absolute;
-    right: 578px;
-    top: 248px;
+    right: 0;
+    top: 0;
     cursor: pointer;
 }
 
